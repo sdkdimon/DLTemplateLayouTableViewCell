@@ -8,8 +8,6 @@
 
 #import "FDFeedViewController.h"
 @import DLTemplateLayouTableViewCell;
-//#import <DLTemplateLayouTableViewCell/DLTemplateLayouTableViewCell.h>
-//#import "UITableView+FDTemplateLayoutCell.h"
 #import "FDFeedEntity.h"
 #import "FDFeedCell.h"
 

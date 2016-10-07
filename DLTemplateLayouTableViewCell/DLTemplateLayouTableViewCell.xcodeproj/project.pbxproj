@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8AA874E91DA7BF6B0082676D /* UITableView+DLTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA874E31DA7BF6B0082676D /* UITableView+DLTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA874EA1DA7BF6B0082676D /* UITableView+DLTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA874E41DA7BF6B0082676D /* UITableView+DLTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA874EB1DA7BF6B0082676D /* UITableView+DLKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA874E51DA7BF6B0082676D /* UITableView+DLKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA874EC1DA7BF6B0082676D /* UITableView+DLIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA874E61DA7BF6B0082676D /* UITableView+DLIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA874ED1DA7BF6B0082676D /* DLTemplateLayouTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA874E81DA7BF6B0082676D /* DLTemplateLayouTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AF4E2641DA6BF75007708ED /* UITableView+DLIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4E25E1DA6BF75007708ED /* UITableView+DLIndexPathHeightCache.m */; };
-		8AF4E2651DA6BF75007708ED /* UITableView+DLKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4E25F1DA6BF75007708ED /* UITableView+DLKeyedHeightCache.m */; };
-		8AF4E2661DA6BF75007708ED /* UITableView+DLTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4E2601DA6BF75007708ED /* UITableView+DLTemplateLayoutCell.m */; };
-		8AF4E2671DA6BF75007708ED /* UITableView+DLTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4E2611DA6BF75007708ED /* UITableView+DLTemplateLayoutCellDebug.m */; };
+		8A7D579B1DA7F30C00A75EED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7D57991DA7F30C00A75EED /* Info.plist */; };
+		8A7D57AA1DA7FEC600A75EED /* DLTemplateLayouTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D57A11DA7FEC600A75EED /* DLTemplateLayouTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D57AB1DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D57A21DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D57AC1DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D57A31DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.m */; };
+		8A7D57AD1DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D57A41DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D57AE1DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D57A51DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.m */; };
+		8A7D57AF1DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D57A61DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D57B01DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D57A71DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.m */; };
+		8A7D57B11DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D57A81DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D57B21DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D57A91DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A0187091DA68C83007E7268 /* DLTemplateLayouTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLTemplateLayouTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A01870D1DA68C83007E7268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AA874E31DA7BF6B0082676D /* UITableView+DLTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
-		8AA874E41DA7BF6B0082676D /* UITableView+DLTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		8AA874E51DA7BF6B0082676D /* UITableView+DLKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLKeyedHeightCache.h"; sourceTree = "<group>"; };
-		8AA874E61DA7BF6B0082676D /* UITableView+DLIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLIndexPathHeightCache.h"; sourceTree = "<group>"; };
-		8AA874E71DA7BF6B0082676D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8AA874E81DA7BF6B0082676D /* DLTemplateLayouTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTemplateLayouTableViewCell.h; sourceTree = "<group>"; };
-		8AF4E25E1DA6BF75007708ED /* UITableView+DLIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLIndexPathHeightCache.m"; sourceTree = "<group>"; };
-		8AF4E25F1DA6BF75007708ED /* UITableView+DLKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLKeyedHeightCache.m"; sourceTree = "<group>"; };
-		8AF4E2601DA6BF75007708ED /* UITableView+DLTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLTemplateLayoutCell.m"; sourceTree = "<group>"; };
-		8AF4E2611DA6BF75007708ED /* UITableView+DLTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		8A7D57991DA7F30C00A75EED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7D579A1DA7F30C00A75EED /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		8A7D57A11DA7FEC600A75EED /* DLTemplateLayouTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTemplateLayouTableViewCell.h; sourceTree = "<group>"; };
+		8A7D57A21DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		8A7D57A31DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		8A7D57A41DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLKeyedHeightCache.h"; sourceTree = "<group>"; };
+		8A7D57A51DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLKeyedHeightCache.m"; sourceTree = "<group>"; };
+		8A7D57A61DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		8A7D57A71DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		8A7D57A81DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DLTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		8A7D57A91DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DLTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,35 +64,35 @@
 		8A01870B1DA68C83007E7268 /* DLTemplateLayouTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				8AF4E25D1DA6BF75007708ED /* sources */,
-				8A01870D1DA68C83007E7268 /* Info.plist */,
+				8A7D57A01DA7FEC600A75EED /* Sources */,
+				8A7D57981DA7F30C00A75EED /* Support Files */,
 			);
 			path = DLTemplateLayouTableViewCell;
 			sourceTree = "<group>";
 		};
-		8AA874EE1DA7BFC50082676D /* Modules */ = {
+		8A7D57981DA7F30C00A75EED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AA874E71DA7BF6B0082676D /* module.modulemap */,
+				8A7D57991DA7F30C00A75EED /* Info.plist */,
+				8A7D579A1DA7F30C00A75EED /* module.modulemap */,
 			);
-			name = Modules;
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		8AF4E25D1DA6BF75007708ED /* sources */ = {
+		8A7D57A01DA7FEC600A75EED /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8AA874EE1DA7BFC50082676D /* Modules */,
-				8AA874E81DA7BF6B0082676D /* DLTemplateLayouTableViewCell.h */,
-				8AA874E61DA7BF6B0082676D /* UITableView+DLIndexPathHeightCache.h */,
-				8AF4E25E1DA6BF75007708ED /* UITableView+DLIndexPathHeightCache.m */,
-				8AA874E51DA7BF6B0082676D /* UITableView+DLKeyedHeightCache.h */,
-				8AF4E25F1DA6BF75007708ED /* UITableView+DLKeyedHeightCache.m */,
-				8AA874E41DA7BF6B0082676D /* UITableView+DLTemplateLayoutCell.h */,
-				8AF4E2601DA6BF75007708ED /* UITableView+DLTemplateLayoutCell.m */,
-				8AA874E31DA7BF6B0082676D /* UITableView+DLTemplateLayoutCellDebug.h */,
-				8AF4E2611DA6BF75007708ED /* UITableView+DLTemplateLayoutCellDebug.m */,
+				8A7D57A11DA7FEC600A75EED /* DLTemplateLayouTableViewCell.h */,
+				8A7D57A21DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.h */,
+				8A7D57A31DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.m */,
+				8A7D57A41DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.h */,
+				8A7D57A51DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.m */,
+				8A7D57A61DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.h */,
+				8A7D57A71DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.m */,
+				8A7D57A81DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.h */,
+				8A7D57A91DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.m */,
 			);
-			path = sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,11 +102,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA874EC1DA7BF6B0082676D /* UITableView+DLIndexPathHeightCache.h in Headers */,
-				8AA874EB1DA7BF6B0082676D /* UITableView+DLKeyedHeightCache.h in Headers */,
-				8AA874EA1DA7BF6B0082676D /* UITableView+DLTemplateLayoutCell.h in Headers */,
-				8AA874E91DA7BF6B0082676D /* UITableView+DLTemplateLayoutCellDebug.h in Headers */,
-				8AA874ED1DA7BF6B0082676D /* DLTemplateLayouTableViewCell.h in Headers */,
+				8A7D57B11DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.h in Headers */,
+				8A7D57AD1DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.h in Headers */,
+				8A7D57AB1DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.h in Headers */,
+				8A7D57AF1DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.h in Headers */,
+				8A7D57AA1DA7FEC600A75EED /* DLTemplateLayouTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7D579B1DA7F30C00A75EED /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,10 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF4E2661DA6BF75007708ED /* UITableView+DLTemplateLayoutCell.m in Sources */,
-				8AF4E2651DA6BF75007708ED /* UITableView+DLKeyedHeightCache.m in Sources */,
-				8AF4E2641DA6BF75007708ED /* UITableView+DLIndexPathHeightCache.m in Sources */,
-				8AF4E2671DA6BF75007708ED /* UITableView+DLTemplateLayoutCellDebug.m in Sources */,
+				8A7D57B01DA7FEC600A75EED /* UITableView+DLTemplateLayoutCell.m in Sources */,
+				8A7D57AE1DA7FEC600A75EED /* UITableView+DLKeyedHeightCache.m in Sources */,
+				8A7D57AC1DA7FEC600A75EED /* UITableView+DLIndexPathHeightCache.m in Sources */,
+				8A7D57B21DA7FEC600A75EED /* UITableView+DLTemplateLayoutCellDebug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,11 +295,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DLTemplateLayouTableViewCell/Info.plist;
+				INFOPLIST_FILE = "DLTemplateLayouTableViewCell/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = $SRCROOT/$PROJECT_NAME/sources/module.modulemap;
+				MODULEMAP_FILE = "$SRCROOT/$PROJECT_NAME/Support Files/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = org.sdkdimon.DLTemplateLayouTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -313,11 +315,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DLTemplateLayouTableViewCell/Info.plist;
+				INFOPLIST_FILE = "DLTemplateLayouTableViewCell/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = $SRCROOT/$PROJECT_NAME/sources/module.modulemap;
+				MODULEMAP_FILE = "$SRCROOT/$PROJECT_NAME/Support Files/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = org.sdkdimon.DLTemplateLayouTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

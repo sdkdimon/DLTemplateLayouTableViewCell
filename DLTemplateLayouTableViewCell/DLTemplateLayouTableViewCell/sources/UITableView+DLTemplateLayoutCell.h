@@ -21,9 +21,9 @@
 // SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "UITableView+DLKeyedHeightCache.h"
-#import "UITableView+DLIndexPathHeightCache.h"
-#import "UITableView+DLTemplateLayoutCellDebug.h"
+#import <DLTemplateLayouTableViewCell/UITableView+DLIndexPathHeightCache.h>
+#import <DLTemplateLayouTableViewCell/UITableView+DLKeyedHeightCache.h>
+#import <DLTemplateLayouTableViewCell/UITableView+DLTemplateLayoutCellDebug.h>
 
 @interface UITableView (DLTemplateLayoutCell)
 

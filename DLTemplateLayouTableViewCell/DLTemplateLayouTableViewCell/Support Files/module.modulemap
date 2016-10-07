@@ -1,0 +1,5 @@
+framework module DLTemplateLayouTableViewCell {
+    umbrella header "DLTemplateLayouTableViewCell.h"
+    export *
+    module * {export *}
+}
