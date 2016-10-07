@@ -1,1 +1,1 @@
-# DLTemplateLayouTableViewCell
+# UITableView-DLTemplateLayoutCell
